@@ -370,131 +370,181 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="hubungi" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <!-- Contact Info -->
-                <div>
-                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 rounded-full mb-6">
-                        <i class="fas fa-envelope text-emerald-600"></i>
-                        <span class="text-sm font-semibold text-emerald-700">Hubungi Kami</span>
-                    </div>
+<!-- Contact Section -->
+<section id="hubungi" class="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-5">
+        <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+    </div>
 
-                    <h2 class="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-                        Mari Berhubung
-                    </h2>
+    <!-- Decorative Blobs -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl"></div>
 
-                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-                        Kami sedia membantu anda. Jangan ragu untuk menghubungi kami untuk sebarang pertanyaan atau maklum balas.
-                    </p>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-16">
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/20 backdrop-blur-sm rounded-full border border-emerald-400/30 mb-6">
+                <i class="fas fa-envelope text-emerald-400"></i>
+                <span class="text-sm font-semibold text-emerald-300">Hubungi Kami</span>
+            </div>
+            <h2 class="text-4xl lg:text-5xl font-bold text-white mb-4">
+                Mari Berhubung
+            </h2>
+            <p class="text-xl text-slate-300 max-w-2xl mx-auto">
+                Kami sedia membantu anda. Jangan ragu untuk menghubungi kami untuk sebarang pertanyaan atau maklum balas.
+            </p>
+        </div>
 
-                    <div class="space-y-6">
-                        <!-- Phone -->
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-phone-alt text-emerald-600"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-slate-900 mb-1">Telefon</h4>
-                                <p class="text-slate-600">+60 3-XXXX XXXX</p>
-                                <p class="text-sm text-slate-500 mt-1">Isnin - Jumaat, 8:00 - 17:00</p>
-                            </div>
+        <div class="grid lg:grid-cols-2 gap-12 items-start">
+            <!-- Contact Info -->
+            <div>
+                <div class="space-y-6 mb-8">
+                    <!-- Phone -->
+                    <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-phone-alt text-white text-xl"></i>
                         </div>
-
-                        <!-- Email -->
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-envelope text-blue-600"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-slate-900 mb-1">Email</h4>
-                                <p class="text-slate-600">jpkkk@kampungbudiman.my</p>
-                                <p class="text-sm text-slate-500 mt-1">Kami akan balas dalam 24 jam</p>
-                            </div>
-                        </div>
-
-                        <!-- Address -->
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-map-marker-alt text-purple-600"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-slate-900 mb-1">Alamat</h4>
-                                <p class="text-slate-600">Kampung Budiman,<br>41000 Klang, Selangor</p>
-                            </div>
+                        <div>
+                            <h4 class="font-semibold text-white text-lg mb-2">Telefon</h4>
+                            <p class="text-emerald-300 font-semibold text-lg">+60 3-XXXX XXXX</p>
+                            <p class="text-sm text-slate-400 mt-1">Isnin - Jumaat, 8:00 - 17:00</p>
                         </div>
                     </div>
 
-                    <!-- Social Media -->
-                    <div class="mt-8 pt-8 border-t border-slate-200">
-                        <h4 class="font-semibold text-slate-900 mb-4">Ikuti Kami</h4>
-                        <div class="flex gap-3">
-                            <a href="#" class="w-12 h-12 bg-slate-100 hover:bg-emerald-500 rounded-xl flex items-center justify-center transition-colors group">
-                                <i class="fab fa-facebook-f text-slate-600 group-hover:text-white"></i>
-                            </a>
-                            <a href="#" class="w-12 h-12 bg-slate-100 hover:bg-emerald-500 rounded-xl flex items-center justify-center transition-colors group">
-                                <i class="fab fa-instagram text-slate-600 group-hover:text-white"></i>
-                            </a>
-                            <a href="#" class="w-12 h-12 bg-slate-100 hover:bg-emerald-500 rounded-xl flex items-center justify-center transition-colors group">
-                                <i class="fab fa-twitter text-slate-600 group-hover:text-white"></i>
-                            </a>
-                            <a href="#" class="w-12 h-12 bg-slate-100 hover:bg-emerald-500 rounded-xl flex items-center justify-center transition-colors group">
-                                <i class="fab fa-whatsapp text-slate-600 group-hover:text-white"></i>
+                    <!-- Email -->
+                    <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-envelope text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-white text-lg mb-2">Email</h4>
+                            <p class="text-blue-300 font-semibold">jpkkk@kampungbudiman.my</p>
+                            <p class="text-sm text-slate-400 mt-1">Kami akan balas dalam 24 jam</p>
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-white text-lg mb-2">Alamat</h4>
+                            <p class="text-slate-300">Kampung Budiman,<br>41000 Klang, Selangor</p>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="flex items-start gap-4 p-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl shadow-xl hover:scale-105 transition-all duration-300">
+                        <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0">
+                            <i class="fab fa-whatsapp text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-white text-lg mb-2">WhatsApp</h4>
+                            <p class="text-white font-semibold text-lg mb-2">+60 12-XXX XXXX</p>
+                            <a href="#" class="inline-flex items-center gap-2 text-sm text-white/90 hover:text-white font-medium">
+                                Tekan untuk chat
+                                <i class="fas fa-arrow-right text-xs"></i>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Contact Form -->
-                <div class="bg-slate-50 rounded-3xl p-8 lg:p-12 shadow-xl">
-                    <h3 class="text-2xl font-bold text-slate-900 mb-6">Hantar Mesej</h3>
-                    
-                    <form class="space-y-6">
-                        <div class="grid sm:grid-cols-2 gap-6">
-                            <div>
-                                <label class="block text-sm font-semibold text-slate-700 mb-2">Nama Penuh</label>
-                                <input type="text" 
-                                       class="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                                       placeholder="Nama anda">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-semibold text-slate-700 mb-2">No. Telefon</label>
-                                <input type="tel" 
-                                       class="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                                       placeholder="+60 12-345 6789">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label class="block text-sm font-semibold text-slate-700 mb-2">Email</label>
-                            <input type="email" 
-                                   class="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                                   placeholder="email@contoh.com">
-                        </div>
-
-                        <div>
-                            <label class="block text-sm font-semibold text-slate-700 mb-2">Subjek</label>
-                            <input type="text" 
-                                   class="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
-                                   placeholder="Tajuk mesej anda">
-                        </div>
-
-                        <div>
-                            <label class="block text-sm font-semibold text-slate-700 mb-2">Mesej</label>
-                            <textarea rows="5" 
-                                      class="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all resize-none"
-                                      placeholder="Tulis mesej anda di sini..."></textarea>
-                        </div>
-
-                        <button type="submit" 
-                                class="w-full px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-                            <i class="fas fa-paper-plane mr-2"></i>
-                            Hantar Mesej
-                        </button>
-                    </form>
+                <!-- Social Media -->
+                <div class="p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
+                    <h4 class="font-semibold text-white text-lg mb-4">Ikuti Kami</h4>
+                    <div class="flex gap-3">
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                            <i class="fab fa-facebook-f text-slate-300 group-hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-pink-500 hover:to-rose-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                            <i class="fab fa-instagram text-slate-300 group-hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-sky-500 hover:to-blue-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                            <i class="fab fa-twitter text-slate-300 group-hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-red-500 hover:to-rose-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                            <i class="fab fa-youtube text-slate-300 group-hover:text-white"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
+
+            <!-- Contact Form -->
+            <div class="bg-white rounded-3xl p-8 lg:p-10 shadow-2xl">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center">
+                        <i class="fas fa-paper-plane text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900">Hantar Mesej</h3>
+                </div>
+                
+                <form class="space-y-5">
+                    <div class="grid sm:grid-cols-2 gap-5">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">
+                                Nama Penuh <span class="text-red-500">*</span>
+                            </label>
+                            <input type="text" 
+                                   required
+                                   class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent focus:bg-white transition-all"
+                                   placeholder="Nama anda">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">
+                                No. Telefon <span class="text-red-500">*</span>
+                            </label>
+                            <input type="tel" 
+                                   required
+                                   class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent focus:bg-white transition-all"
+                                   placeholder="+60 12-345 6789">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">
+                            Email <span class="text-red-500">*</span>
+                        </label>
+                        <input type="email" 
+                               required
+                               class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent focus:bg-white transition-all"
+                               placeholder="email@contoh.com">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">
+                            Subjek <span class="text-red-500">*</span>
+                        </label>
+                        <input type="text" 
+                               required
+                               class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent focus:bg-white transition-all"
+                               placeholder="Tajuk mesej anda">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">
+                            Mesej <span class="text-red-500">*</span>
+                        </label>
+                        <textarea rows="5" 
+                                  required
+                                  class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent focus:bg-white transition-all resize-none"
+                                  placeholder="Tulis mesej anda di sini..."></textarea>
+                    </div>
+
+                    <button type="submit" 
+                            class="w-full px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2">
+                        <i class="fas fa-paper-plane"></i>
+                        Hantar Mesej
+                    </button>
+
+                    <p class="text-xs text-slate-500 text-center">
+                        Dengan menghantar mesej, anda bersetuju dengan 
+                        <a href="#" class="text-emerald-600 hover:underline">Dasar Privasi</a> kami.
+                    </p>
+                </form>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
 @endsection
