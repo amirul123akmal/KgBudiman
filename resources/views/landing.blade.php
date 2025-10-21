@@ -23,7 +23,7 @@
                     
                     <h1 class="text-5xl lg:text-7xl font-bold mb-6 leading-tight text-balance">
                         Kampung<br/>
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">
+                        <span class="text-transparent bg-clip-text bg-linear-to-r from-emerald-400 to-teal-400">
                             Budiman
                         </span>
                     </h1>
@@ -33,7 +33,7 @@
                     </p>
 
                     <div class="flex flex-wrap gap-4">
-                        <a href="#pengenalan" class="group px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                        <a href="#pengenalan" class="group px-8 py-4 bg-linear-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
                             Ketahui Lebih Lanjut
                             <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
                         </a>
@@ -63,12 +63,12 @@
                 <div class="hidden lg:block fade-in">
                     <div class="glass-card rounded-3xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                         <div class="bg-white rounded-2xl p-8 shadow-inner">
-                            <img src="https://via.placeholder.com/400x400/10b981/ffffff?text=JPKKK+Logo" 
-                                 alt="JPKKK Kampung Budiman" 
-                                 class="w-full h-auto">
+                            <img src="{{ asset('images/jpkk.png') }}" 
+                                 alt="JPKK Kampung Budiman" 
+                                 class="size-2/3 mx-auto">
                         </div>
                         <div class="mt-6 text-center">
-                            <h3 class="text-xl font-bold text-slate-800 mb-2">JPKKK</h3>
+                            <h3 class="text-xl font-bold text-slate-800 mb-2">JPKK</h3>
                             <p class="text-sm text-slate-600 font-medium">Jawatankuasa Pembangunan dan Kemajuan Kampung</p>
                             <div class="mt-4 pt-4 border-t border-slate-200">
                                 <p class="text-lg font-bold text-emerald-600">KAMPUNG BUDIMAN</p>
@@ -175,7 +175,7 @@
     </section>
 
     <!-- Waktu Berurusan Section -->
-    <section class="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
+    <section class="py-20 bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
         <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-5">
             <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
@@ -198,7 +198,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Monday - Thursday -->
                 <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
-                    <div class="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+                    <div class="w-16 h-16 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
                         <i class="fas fa-calendar-week text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-2">Isnin - Khamis</h3>
@@ -208,7 +208,7 @@
 
                 <!-- Friday -->
                 <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
-                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+                    <div class="w-16 h-16 bg-linear-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
                         <i class="fas fa-mosque text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-2">Jumaat</h3>
@@ -218,7 +218,7 @@
 
                 <!-- Weekend -->
                 <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
-                    <div class="w-16 h-16 bg-gradient-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+                    <div class="w-16 h-16 bg-linear-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
                         <i class="fas fa-calendar-times text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-2">Sabtu & Ahad</h3>
@@ -227,7 +227,7 @@
                 </div>
 
                 <!-- Emergency -->
-                <div class="bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl p-8 shadow-2xl hover:scale-105 transition-all duration-300">
+                <div class="bg-linear-to-br from-emerald-500 to-teal-600 rounded-2xl p-8 shadow-2xl hover:scale-105 transition-all duration-300">
                     <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center mb-6">
                         <i class="fas fa-phone-alt text-white text-2xl"></i>
                     </div>
@@ -279,7 +279,7 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Facility Card 1 -->
                 <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                         <i class="fas fa-mosque text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Surau</h3>
@@ -294,7 +294,7 @@
 
                 <!-- Facility Card 2 -->
                 <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-linear-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                         <i class="fas fa-futbol text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Padang Bola</h3>
@@ -309,7 +309,7 @@
 
                 <!-- Facility Card 3 -->
                 <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-linear-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                         <i class="fas fa-home text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Dewan Serbaguna</h3>
@@ -324,7 +324,7 @@
 
                 <!-- Facility Card 4 -->
                 <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-linear-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                         <i class="fas fa-child text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Taman Permainan</h3>
@@ -339,7 +339,7 @@
 
                 <!-- Facility Card 5 -->
                 <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-linear-to-br from-teal-500 to-cyan-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                         <i class="fas fa-parking text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Tempat Letak Kereta</h3>
@@ -354,7 +354,7 @@
 
                 <!-- Facility Card 6 -->
                 <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div class="w-16 h-16 bg-linear-to-br from-yellow-500 to-amber-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                         <i class="fas fa-lightbulb text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">Lampu Jalan</h3>
@@ -371,7 +371,7 @@
     </section>
 
 <!-- Contact Section -->
-<section id="hubungi" class="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 relative overflow-hidden">
+<section id="hubungi" class="py-20 bg-linear-to-br from-slate-900 via-slate-800 to-emerald-900 relative overflow-hidden">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
         <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
@@ -401,7 +401,7 @@
                 <div class="space-y-6 mb-8">
                     <!-- Phone -->
                     <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
-                        <div class="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <div class="w-14 h-14 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
                             <i class="fas fa-phone-alt text-white text-xl"></i>
                         </div>
                         <div>
@@ -413,7 +413,7 @@
 
                     <!-- Email -->
                     <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
-                        <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <div class="w-14 h-14 bg-linear-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
                             <i class="fas fa-envelope text-white text-xl"></i>
                         </div>
                         <div>
@@ -425,7 +425,7 @@
 
                     <!-- Address -->
                     <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
-                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <div class="w-14 h-14 bg-linear-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
                             <i class="fas fa-map-marker-alt text-white text-xl"></i>
                         </div>
                         <div>
@@ -435,7 +435,7 @@
                     </div>
 
                     <!-- WhatsApp -->
-                    <div class="flex items-start gap-4 p-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl shadow-xl hover:scale-105 transition-all duration-300">
+                    <div class="flex items-start gap-4 p-6 bg-linear-to-br from-green-500 to-emerald-600 rounded-2xl shadow-xl hover:scale-105 transition-all duration-300">
                         <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0">
                             <i class="fab fa-whatsapp text-white text-2xl"></i>
                         </div>
@@ -454,16 +454,16 @@
                 <div class="p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
                     <h4 class="font-semibold text-white text-lg mb-4">Ikuti Kami</h4>
                     <div class="flex gap-3">
-                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-linear-to-br hover:from-blue-500 hover:to-blue-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
                             <i class="fab fa-facebook-f text-slate-300 group-hover:text-white"></i>
                         </a>
-                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-pink-500 hover:to-rose-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-linear-to-br hover:from-pink-500 hover:to-rose-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
                             <i class="fab fa-instagram text-slate-300 group-hover:text-white"></i>
                         </a>
-                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-sky-500 hover:to-blue-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-linear-to-br hover:from-sky-500 hover:to-blue-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
                             <i class="fab fa-twitter text-slate-300 group-hover:text-white"></i>
                         </a>
-                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-red-500 hover:to-rose-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
+                        <a href="#" class="w-12 h-12 bg-white/10 hover:bg-linear-to-br hover:from-red-500 hover:to-rose-600 rounded-xl flex items-center justify-center transition-all duration-300 group border border-white/20">
                             <i class="fab fa-youtube text-slate-300 group-hover:text-white"></i>
                         </a>
                     </div>
@@ -473,7 +473,7 @@
             <!-- Contact Form -->
             <div class="bg-white rounded-3xl p-8 lg:p-10 shadow-2xl">
                 <div class="flex items-center gap-3 mb-6">
-                    <div class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center">
+                    <div class="w-12 h-12 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center">
                         <i class="fas fa-paper-plane text-white"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-slate-900">Hantar Mesej</h3>
@@ -532,7 +532,7 @@
                     </div>
 
                     <button type="submit" 
-                            class="w-full px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2">
+                            class="w-full px-8 py-4 bg-linear-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2">
                         <i class="fas fa-paper-plane"></i>
                         Hantar Mesej
                     </button>
