@@ -99,7 +99,7 @@
                             <i class="fas fa-phone"></i>
                             <span class="text-sm">Call</span>
                         </a>
-                        <a href="https://wa.me/60116212202" class="flex-1 px-4 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg">
+                        <a href="https://wa.me/0116212202" class="flex-1 px-4 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg">
                             <i class="fab fa-whatsapp"></i>
                             <span class="text-sm">WhatsApp</span>
                         </a>
@@ -111,7 +111,7 @@
             <div class="group bg-linear-to-br from-purple-50 to-pink-50 rounded-3xl p-8 shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-2 border-purple-100">
                 <!-- Image Container -->
                 <div class="relative mb-6">
-                    <div class="aspect-[3/4] rounded-2xl overflow-hidden bg-white shadow-lg">
+                    <div class="aspect-3/4 rounded-2xl overflow-hidden bg-white shadow-lg">
                         <img src="https://via.placeholder.com/400x500/1e293b/ffffff?text=Bendahari" 
                              alt="Mohammad Shahidan Bin Mohd Jais" 
                              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
@@ -143,7 +143,7 @@
                             <i class="fas fa-phone"></i>
                             <span class="text-sm">Call</span>
                         </a>
-                        <a href="https://wa.me/60111378828" class="flex-1 px-4 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg">
+                        <a href="https://wa.me/0111378828" class="flex-1 px-4 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg">
                             <i class="fab fa-whatsapp"></i>
                             <span class="text-sm">WhatsApp</span>
                         </a>

@@ -120,7 +120,7 @@
                     <!-- Key Features -->
                     <div class="grid sm:grid-cols-2 gap-4 mt-8">
                         <div class="flex items-start gap-3 p-4 bg-emerald-50 rounded-xl">
-                            <div class="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <div class="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center shrink-0">
                                 <i class="fas fa-history text-white"></i>
                             </div>
                             <div>
@@ -130,7 +130,7 @@
                         </div>
 
                         <div class="flex items-start gap-3 p-4 bg-teal-50 rounded-xl">
-                            <div class="w-10 h-10 bg-teal-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <div class="w-10 h-10 bg-teal-500 rounded-lg flex items-center justify-center shrink-0">
                                 <i class="fas fa-users text-white"></i>
                             </div>
                             <div>
@@ -150,14 +150,14 @@
                                      alt="Kampung" 
                                      class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
                             </div>
-                            <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+                            <div class="aspect-4/3 rounded-2xl overflow-hidden shadow-xl">
                                 <img src="https://images.unsplash.com/photo-1523978591478-c753949ff840?w=400" 
                                      alt="Komuniti" 
                                      class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
                             </div>
                         </div>
                         <div class="space-y-4 pt-8">
-                            <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+                            <div class="aspect-4/3 rounded-2xl overflow-hidden shadow-xl">
                                 <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400" 
                                      alt="Rumah" 
                                      class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
@@ -278,94 +278,11 @@
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Facility Card 1 -->
-                <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fas fa-mosque text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Surau</h3>
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Tempat ibadah yang selesa dan bersih untuk penduduk kampung.
-                    </p>
-                    <a href="#" class="inline-flex items-center gap-2 text-emerald-600 font-semibold hover:gap-3 transition-all">
-                        Ketahui Lebih
-                        <i class="fas fa-arrow-right text-sm"></i>
-                    </a>
-                </div>
-
-                <!-- Facility Card 2 -->
-                <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-linear-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fas fa-futbol text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Padang Bola</h3>
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Padang serbaguna untuk aktiviti sukan dan rekreasi.
-                    </p>
-                    <a href="#" class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:gap-3 transition-all">
-                        Ketahui Lebih
-                        <i class="fas fa-arrow-right text-sm"></i>
-                    </a>
-                </div>
-
-                <!-- Facility Card 3 -->
-                <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-linear-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fas fa-home text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Dewan Serbaguna</h3>
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Ruang untuk majlis dan aktiviti kemasyarakatan.
-                    </p>
-                    <a href="#" class="inline-flex items-center gap-2 text-purple-600 font-semibold hover:gap-3 transition-all">
-                        Ketahui Lebih
-                        <i class="fas fa-arrow-right text-sm"></i>
-                    </a>
-                </div>
-
-                <!-- Facility Card 4 -->
-                <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-linear-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fas fa-child text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Taman Permainan</h3>
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Kawasan bermain yang selamat untuk kanak-kanak.
-                    </p>
-                    <a href="#" class="inline-flex items-center gap-2 text-orange-600 font-semibold hover:gap-3 transition-all">
-                        Ketahui Lebih
-                        <i class="fas fa-arrow-right text-sm"></i>
-                    </a>
-                </div>
-
-                <!-- Facility Card 5 -->
-                <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-linear-to-br from-teal-500 to-cyan-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fas fa-parking text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Tempat Letak Kereta</h3>
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Ruang parkir yang mencukupi untuk kemudahan penduduk.
-                    </p>
-                    <a href="#" class="inline-flex items-center gap-2 text-teal-600 font-semibold hover:gap-3 transition-all">
-                        Ketahui Lebih
-                        <i class="fas fa-arrow-right text-sm"></i>
-                    </a>
-                </div>
-
-                <!-- Facility Card 6 -->
-                <div class="group bg-white rounded-2xl p-8 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                    <div class="w-16 h-16 bg-linear-to-br from-yellow-500 to-amber-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                        <i class="fas fa-lightbulb text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3">Lampu Jalan</h3>
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Pencahayaan yang baik untuk keselamatan pada waktu malam.
-                    </p>
-                    <a href="#" class="inline-flex items-center gap-2 text-yellow-600 font-semibold hover:gap-3 transition-all">
-                        Ketahui Lebih
-                        <i class="fas fa-arrow-right text-sm"></i>
-                    </a>
-                </div>
+                <x-facility-card colorFrom="from-blue-500" colorTo="to-indigo-600" place="Surau" desc="Tempat ibadah yang selesa dan bersih untuk penduduk kampung." icon="fa-mosque" />
+                <x-facility-card colorFrom="from-purple-500" colorTo="to-pink-600" place="Sekolah" desc="Institusi pendidikan berkualiti untuk pembangunan generasi masa depan." icon="fa-solid fa-school" />
+                <x-facility-card colorFrom="from-orange-500" colorTo="to-red-600" place="Dewan Orang Ramai" desc="Ruang untuk majlis dan aktiviti kemasyarakatan." icon="fa-home" />
+                <x-facility-card colorFrom="from-teal-500" colorTo="to-cyan-600" place="Padang Bola Sepak" desc="Padang bola sepak untuk aktiviti sukan dan riadah." icon="fa-futbol" />
+                <x-facility-card colorFrom="from-yellow-500" colorTo="to-amber-600" place="Aduan Kampung" desc="Sistem aduan untuk melaporkan masalah dan cadangan penambahbaikan kampung." icon="fa-solid fa-triangle-exclamation" />
             </div>
         </div>
     </section>
@@ -401,7 +318,7 @@
                 <div class="space-y-6 mb-8">
                     <!-- Phone -->
                     <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
-                        <div class="w-14 h-14 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <div class="w-14 h-14 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center shrink-0 shadow-lg">
                             <i class="fas fa-phone-alt text-white text-xl"></i>
                         </div>
                         <div>
@@ -413,7 +330,7 @@
 
                     <!-- Email -->
                     <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
-                        <div class="w-14 h-14 bg-linear-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <div class="w-14 h-14 bg-linear-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center shrink-0 shadow-lg">
                             <i class="fas fa-envelope text-white text-xl"></i>
                         </div>
                         <div>
@@ -425,7 +342,7 @@
 
                     <!-- Address -->
                     <div class="flex items-start gap-4 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 hover:bg-white/15 transition-all duration-300">
-                        <div class="w-14 h-14 bg-linear-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                        <div class="w-14 h-14 bg-linear-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center shrink-0 shadow-lg">
                             <i class="fas fa-map-marker-alt text-white text-xl"></i>
                         </div>
                         <div>
@@ -436,7 +353,7 @@
 
                     <!-- WhatsApp -->
                     <div class="flex items-start gap-4 p-6 bg-linear-to-br from-green-500 to-emerald-600 rounded-2xl shadow-xl hover:scale-105 transition-all duration-300">
-                        <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0">
+                        <div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center shrink-0">
                             <i class="fab fa-whatsapp text-white text-2xl"></i>
                         </div>
                         <div>
