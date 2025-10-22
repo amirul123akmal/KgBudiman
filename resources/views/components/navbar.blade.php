@@ -37,7 +37,7 @@
                             <div class="absolute -top-2 left-6 w-4 h-4 bg-white border-l border-t border-slate-200 transform rotate-45"></div>
                             
                             <div class="relative bg-white rounded-xl overflow-hidden py-2">
-                                <a href="#biz-hub" class="flex items-center gap-3 px-4 py-3 text-slate-700 hover:bg-emerald-50 hover:text-emerald-600 transition-colors group/item">
+                                <a href="{{ route('biz-hub') }}" class="flex items-center gap-3 px-4 py-3 text-slate-700 hover:bg-emerald-50 hover:text-emerald-600 transition-colors group/item">
                                     <div class="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center group-hover/item:bg-emerald-500 transition-colors">
                                         <i class="fas fa-store text-emerald-600 group-hover/item:text-white transition-colors"></i>
                                     </div>
@@ -64,6 +64,17 @@
                                     <div>
                                         <div class="font-semibold text-sm">Hubungi Kami</div>
                                         <div class="text-xs text-slate-500">Dapatkan bantuan</div>
+                                    </div>
+                                </a>
+                                <div class="border-t border-slate-200 my-2"></div>
+
+                                <a href="{{ route('aktivity') }}" class="flex items-center gap-3 px-4 py-3 text-slate-700 hover:bg-orange-50 hover:text-orange-600 transition-colors group/item">
+                                    <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center group-hover/item:bg-orange-500 transition-colors">
+                                        <i class="fas fa-file-alt text-orange-600 group-hover/item:text-white transition-colors"></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-semibold text-sm">Aktiviti</div>
+                                        <div class="text-xs text-slate-500">Borang & dokumen</div>
                                     </div>
                                 </a>
                             </div>
@@ -110,7 +121,7 @@
                     </button>
                     
                     <div id="mobileServisMenu" class="hidden pl-4 space-y-2">
-                        <a href="#biz-hub" class="flex items-center gap-3 px-4 py-2 text-sm text-slate-600 hover:bg-emerald-50 hover:text-emerald-600 rounded-lg transition-colors">
+                        <a href="{{ route('biz-hub') }}" class="flex items-center gap-3 px-4 py-2 text-sm text-slate-600 hover:bg-emerald-50 hover:text-emerald-600 rounded-lg transition-colors">
                             <i class="fas fa-store text-emerald-600 w-4"></i>
                             Budiman Biz HUB
                         </a>
@@ -121,6 +132,10 @@
                         <a href="/#hubungi" class="flex items-center gap-3 px-4 py-2 text-sm text-slate-600 hover:bg-purple-50 hover:text-purple-600 rounded-lg transition-colors">
                             <i class="fas fa-envelope text-purple-600 w-4"></i>
                             Hubungi Kami
+                        </a>
+                        <a href="{{ route('aktivity') }}" class="flex items-center gap-3 px-4 py-2 text-sm text-slate-600 hover:bg-orange-50 hover:text-orange-600 rounded-lg transition-colors">
+                            <i class="fas fa-file-alt text-orange-600 w-4"></i>
+                            Aktiviti
                         </a>
                     </div>
                 </div>
